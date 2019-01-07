@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "personalblog-20190106221100-authRole",
+			"UnauthRoleArn": "arn:aws:iam::760368216729:role/personalblog-20190106221100-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::760368216729:role/personalblog-20190106221100-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "personalblog-20190106221100-deployment",
+			"UnauthRoleName": "personalblog-20190106221100-unauthRole",
+			"StackName": "personalblog-20190106221100",
+			"StackId": "arn:aws:cloudformation:us-east-1:760368216729:stack/personalblog-20190106221100/3e4b5560-1232-11e9-b231-120088802366"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/personalblog-20190106221100-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-01-07T04:13:33.364Z",
+			"output": {
+				"S3BucketSecureURL": "https://personalblog-20190106221204-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://personalblog-20190106221204-hostingbucket.s3-website-us-east-1.amazonaws.com",
+				"Region": "us-east-1",
+				"HostingBucketName": "personalblog-20190106221204-hostingbucket"
+			},
+			"lastPushDirHash": "gpK5UqRv392Uowkf+A/3idTMMSY="
+		}
+	}
+}
