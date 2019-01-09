@@ -1,6 +1,7 @@
 ---
 title: Sharing is Caring
 date: '2019-01-03T22:53:03.284Z'
+tags: ['main']
 ---
 
 ## The Problem:
