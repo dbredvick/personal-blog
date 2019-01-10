@@ -4,6 +4,8 @@ date: '2019-01-09T22:53:03.284Z'
 tags: ['main']
 ---
 
+My 100 days of code progress: [link](http://personalblog-20190106221204-hostingbucket.s3-website-us-east-1.amazonaws.com/100-days-of-code/)
+
 [![akimbo](https://secureimg.stitcher.com/feedimagesplain328/168872.jpg)](https://www.akimbo.me/)
 
 I recently started listening to Seth Godin's podcast, [Akimbo](https://www.akimbo.me/). It's very well done and has thought-provoking points. One of my favorite episodes, "No such thing (as writer's block)", really illustrates the point of why I'm doing the challenge.
